@@ -23,8 +23,8 @@ const applePay = {
     version: 2,
     merchantIdentifier: '',
     merchantCapabilities: ['supports3DS'],
-    supportedNetworks: ['visa', 'masterCard'],
-    countryCode: 'US',
+    supportedNetworks: ['visa', 'masterCard', 'amex', 'jcb'],
+    countryCode: 'JP',
   }
 };
 
